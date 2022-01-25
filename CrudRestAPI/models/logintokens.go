@@ -15,11 +15,13 @@ import (
 //used in jwt to sign our token
 var jwtKey = []byte("secret_key")
 
-var people = map[string]string{
-	"user1":       "password1",
-	"user2":       "password2",
-	"Moinqureshi": "12345",
-}
+
+//this is the local map function for user login. use this if not connected to a database.
+// var people = map[string]string{
+// 	"user1":       "password1",
+// 	"user2":       "password2",
+// 	"Moinqureshi": "12345",
+// }
 
 //for passing username and pw from the api
 
